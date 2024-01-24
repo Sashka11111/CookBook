@@ -20,10 +20,8 @@ public class User extends Entity {
       String avatar) {
     super(id);
     this.password = validatedPassword(password);
-    // TODO: setEmail(email);
     this.email = email;
     setUsername(username);
-    // TODO: setAvatar(avatar);
     this.avatar = avatar;
     this.role = role;
   }

@@ -12,6 +12,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 import java.util.UUID;
 
 public class Main {
@@ -30,16 +31,17 @@ public class Main {
   public static List<User> generateUsers(int count) {
     List<User> users = new ArrayList<>();
     Faker faker = new Faker();
+    Random random = new Random();
 
     for (int i = 0; i < count; i++) {
       UUID userId = UUID.randomUUID();
       String password = faker.internet().password();
       String email = faker.internet().emailAddress();
-      String role = "user";
+      String role = (random.nextBoolean()) ? "admin" : "user";
       String username = faker.name().username();
       String avatar = faker.internet().avatar();
 
-      User user = new User(userId, password, role, email, username, avatar);
+      User user = new User(userId, password, email, role, username, avatar);
       users.add(user);
     }
 

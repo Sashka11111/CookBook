@@ -3,28 +3,27 @@ package com.liamtseva.cookbook.persistence.entity.impl;
 import com.liamtseva.cookbook.persistence.entity.Entity;
 import java.util.UUID;
 
-/**
- * TODO: зробити валідацію по аналогії з User
- */
 public class Response extends Entity {
 
-  private String body;
+  private String comment;
   private String mark;
   private User author;
+  private Recipes recipesid;
 
-  public Response(UUID id, String body, String mark, User author) {
+  public Response(UUID id, String comment, String mark, User author, Recipes recipesid) {
     super(id);
-    this.body = body;
+    this.comment = comment;
     this.mark = mark;
     this.author = author;
+    this.recipesid = recipesid;
   }
 
-  public String getBody() {
-    return body;
+  public String getComment() {
+    return comment;
   }
 
-  public void setBody(String body) {
-    this.body = body;
+  public void setComment(String comment) {
+    this.comment = comment;
   }
 
   public String getMark() {
@@ -43,13 +42,22 @@ public class Response extends Entity {
     this.author = author;
   }
 
+  public Recipes getRecipesid() {
+    return recipesid;
+  }
+
+  public void setRecipesid(Recipes recipesid) {
+    this.recipesid = recipesid;
+  }
+
 
   @Override
   public String toString() {
-    return "Comment{" +
-        "body='" + body + '\'' +
-        ", author=" + author +
-        ", mark='" + mark + '\'' +
+    return "Response{" +
+        "comment='" + comment + '\'' +
+        ", mark='" + mark +
+        ", author=" + author + '\'' +
+        ", recipesid=" + recipesid + '\'' +
         ", id=" + id +
         '}';
   }
