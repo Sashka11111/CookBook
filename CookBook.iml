@@ -7,6 +7,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="javafaker-1.0.2" level="project" />
+    <orderEntry type="library" name="gson-2.10.1" level="project" />
+    <orderEntry type="library" name="commons-lang3-3.5" level="project" />
+    <orderEntry type="library" name="snakeyaml-1.23" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="3226e1f9-f11f-4451-b4de-15ddc4b3dd0a" />
