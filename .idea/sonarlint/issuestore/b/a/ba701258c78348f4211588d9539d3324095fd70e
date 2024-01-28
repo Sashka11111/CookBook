@@ -1,0 +1,5 @@
+
+b	java:S112F"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ı8é½şüÔ1
+G	java:S106C"+Replace this use of System.out by a logger.(¥¡ı8†¾şüÔ1
+F
+java:S2140M")Use "java.util.Random.nextInt()" instead.(¦™Ò»8ˆ¾şüÔ1

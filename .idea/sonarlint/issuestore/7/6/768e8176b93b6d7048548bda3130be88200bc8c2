@@ -1,0 +1,18 @@
+
+G	java:S106"+Replace this use of System.out by a logger.(—ß…£8°‰¡ÿÔ1
+F	java:S106"+Replace this use of System.out by a logger.(¡Ÿ‹n8°‰¡ÿÔ1
+L	java:S106"+Replace this use of System.out by a logger.(ëìøÅşÿÿÿÿ8°‰¡ÿÔ1
+L	java:S106"+Replace this use of System.out by a logger.(èÜúÿÿÿÿ8°‰¡ÿÔ1
+L	java:S106"+Replace this use of System.out by a logger.(Ù–€®ÿÿÿÿÿ8°‰¡ÿÔ1
+G	java:S106'"+Replace this use of System.out by a logger.(’„¶©8²‰¡ÿÔ1
+L	java:S106*"+Replace this use of System.out by a logger.(½İ‚şûÿÿÿÿ8³‰¡ÿÔ1
+L	java:S1064"+Replace this use of System.out by a logger.(åö–“ıÿÿÿÿ8´‰¡ÿÔ1
+L	java:S1066"+Replace this use of System.out by a logger.(±Á™™üÿÿÿÿ8´‰¡ÿÔ1
+F	java:S106<"+Replace this use of System.out by a logger.(Ş¢Êk8µ‰¡ÿÔ1
+G	java:S106>"+Replace this use of System.out by a logger.(ùø„Ì8µ‰¡ÿÔ1
+G	java:S106A"+Replace this use of System.err by a logger.(ñ…£Ş8µ‰¡ÿÔ1
+
+java:S1130E"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(íàˆûÿÿÿÿÿ8¶‰¡ÿÔ1
+O
+java:S1172E"-Remove this unused method parameter "reader".(íàˆûÿÿÿÿÿ8¶‰¡ÿÔ1
+G	java:S106G"+Replace this use of System.out by a logger.(·Ê‹‘8·‰¡ÿÔ1

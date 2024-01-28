@@ -3,6 +3,7 @@ package com.liamtseva.cookbook.persistence.entity.impl;
 import com.liamtseva.cookbook.persistence.entity.Entity;
 import com.liamtseva.cookbook.persistence.entity.ErrorTemplates;
 import com.liamtseva.cookbook.persistence.exception.EntityArgumentException;
+import java.util.Map;
 import java.util.Objects;
 import java.util.UUID;
 import java.util.regex.Pattern;
@@ -10,18 +11,22 @@ import java.util.regex.Pattern;
 public class User extends Entity {
 
   private final String password;
-  private String role;
+  private final Role role;
   private String email;
   private String username;
   private String avatar;
 
 
-  public User(UUID id, String password, String email, String role, String username,
-      String avatar) {
+  public User(UUID id, String password, String email, String username, String avatar, Role role) {
     super(id);
-    this.password = validatedPassword(password);
+    //this.password = validatedPassword(password);
+
+    this.password = password;
+    // TODO: setEmail(email);
     this.email = email;
+    // TODO: validatedBirthday(birthday);
     setUsername(username);
+    // TODO: setAvatar(avatar);
     this.avatar = avatar;
     this.role = role;
   }
@@ -32,6 +37,10 @@ public class User extends Entity {
 
   public String getEmail() {
     return email;
+  }
+
+  public Role getRole() {
+    return role;
   }
 
   public String getUsername() {
@@ -62,7 +71,7 @@ public class User extends Entity {
       errors.add(ErrorTemplates.MAX_LENGTH.getTemplate().formatted(templateName, 24));
     }
     var pattern = Pattern.compile("^[a-zA-Z0-9_]+$");
-    if (pattern.matcher(username).matches()) {
+    if (!pattern.matcher(username).matches()) {
       errors.add(ErrorTemplates.ONLY_LATIN.getTemplate().formatted(templateName, 24));
     }
 
@@ -71,10 +80,6 @@ public class User extends Entity {
     }
 
     this.username = username;
-  }
-
-  public String getRole() {
-    return role;
   }
 
   public String getAvatar() {
@@ -98,7 +103,7 @@ public class User extends Entity {
       errors.add(ErrorTemplates.MAX_LENGTH.getTemplate().formatted(templateName, 32));
     }
     var pattern = Pattern.compile("^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$");
-    if (pattern.matcher(password).matches()) {
+    if (!pattern.matcher(password).matches()) {
       errors.add(ErrorTemplates.PASSWORD.getTemplate().formatted(templateName, 24));
     }
 
@@ -133,9 +138,37 @@ public class User extends Entity {
         ", email='" + email + '\'' +
         ", username='" + username + '\'' +
         ", avatar='" + avatar + '\'' +
-        ", role='" + role + '\'' +
         ", id=" + id +
         '}';
   }
+
+  public enum Role {
+    ADMIN("admin", Map.of(
+        EntityName.RESPONSE, new Permission(true, true, true, true),
+        EntityName.CATEGORY, new Permission(true, true, true, true),
+        EntityName.RECIPES, new Permission(true, true, true, true),
+        EntityName.USER, new Permission(true, true, true, true))),
+    GENERAL("general", Map.of(
+        EntityName.RESPONSE, new Permission(true, true, true, true),
+        EntityName.CATEGORY, new Permission(true, false, true, true),
+        EntityName.RECIPES, new Permission(false, false, false, true),
+        EntityName.USER, new Permission(false, false, false, false)));
+
+    private final String name;
+    private final Map<EntityName, Permission> permissions;
+
+    Role(String name, Map<EntityName, Permission> permissions) {
+      this.name = name;
+      this.permissions = permissions;
+    }
+
+    public enum EntityName {RESPONSE, CATEGORY, RECIPES, USER}
+
+    private record Permission(boolean canAdd, boolean canEdit, boolean canDelete,
+                              boolean canRead) {
+
+    }
+  }
+
 }
 

@@ -11,6 +11,12 @@
     <orderEntry type="library" name="gson-2.10.1" level="project" />
     <orderEntry type="library" name="commons-lang3-3.5" level="project" />
     <orderEntry type="library" name="snakeyaml-1.23" level="project" />
+    <orderEntry type="library" name="jakarta.activation-2.0.1" level="project" />
+    <orderEntry type="library" name="jakarta.mail-2.0.1" level="project" />
+    <orderEntry type="library" name="bcrypt-0.3" level="project" />
+    <orderEntry type="library" name="generex-1.0.2" level="project" />
+    <orderEntry type="library" name="consoleui-0.0.13" level="project" />
+    <orderEntry type="library" name="jline-2.14.6" level="project" />
   </component>
   <component name="SonarLintModuleSettings">
     <option name="uniqueId" value="3226e1f9-f11f-4451-b4de-15ddc4b3dd0a" />
