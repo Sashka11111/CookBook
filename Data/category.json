@@ -1,0 +1,26 @@
+[
+  {
+    "categoryId": 1,
+    "name": "Страви з м'ясом"
+  },
+  {
+    "categoryId": 2,
+    "name": "Страви з овочами"
+  },
+  {
+    "categoryId": 3,
+    "name": "Закуски"
+  },
+  {
+    "categoryId": 4,
+    "name": "Салати"
+  },
+  {
+    "categoryId": 5,
+    "name": "Десерти"
+  },
+  {
+    "categoryId": 6,
+    "name": "Паста"
+  }
+]

@@ -1,0 +1,19 @@
+
+t
+java:S1450"WRemove the "recipess" field and declare it as a local variable in the relevant methods.(ƒş¹‰8ÁÁü«Ö1
+L	java:S106"+Replace this use of System.out by a logger.(Æ¶Şüÿÿÿÿÿ8ÁÁü«Ö1
+F	java:S106"+Replace this use of System.out by a logger.(½õè
+8ÁÁü«Ö1
+G	java:S106"+Replace this use of System.out by a logger.(Æºƒä8ÁÁü«Ö1
+G	java:S106"+Replace this use of System.out by a logger.(¥á’®8ÁÁü«Ö1
+G	java:S106"+Replace this use of System.out by a logger.(Èüï»8ËÁü«Ö1
+L	java:S106"+Replace this use of System.out by a logger.(„öÏ»ÿÿÿÿÿ8ËÁü«Ö1
+G	java:S106"+Replace this use of System.out by a logger.(í±»¢8ËÁü«Ö1
+L	java:S106'"+Replace this use of System.out by a logger.(¢Ãúºúÿÿÿÿ8èŸÍ®Ö1
+L	java:S106)"+Replace this use of System.out by a logger.(Ú¶°øûÿÿÿÿ8èŸÍ®Ö1
+L	java:S106,"+Replace this use of System.out by a logger.(°ÉÓ†ùÿÿÿÿ8èŸÍ®Ö1
+G	java:S106/"+Replace this use of System.out by a logger.(ÄÌ»ñ8éŸÍ®Ö1
+G	java:S1062"+Replace this use of System.out by a logger.(°ñ‹«8éŸÍ®Ö1
+L	java:S1065"+Replace this use of System.out by a logger.(ÚÓ×àøÿÿÿÿ8êŸÍ®Ö1
+G	java:S106I"+Replace this use of System.out by a logger.(ÔÌ§Â8† Í®Ö1
+F	java:S106K"+Replace this use of System.out by a logger.(ÆÈî&8† Í®Ö1

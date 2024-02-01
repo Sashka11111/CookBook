@@ -1,0 +1,13 @@
+
+^
+java:S4973Y"<Strings and Boxed types should be compared using "equals()".(Ù•ÌÔüÿÿÿÿ8··°ˆÖ1
+£
+java:S1186@"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¯´¯Ïüÿÿÿÿ8÷äÂµÖ1
+G	java:S106"+Replace this use of System.out by a logger.(š·€š8Á·°ˆÖ1
+G	java:S106!"+Replace this use of System.out by a logger.(ÚÎõ8Á·°ˆÖ1
+F	java:S106$"+Replace this use of System.out by a logger.(ç—ô*8Á·°ˆÖ1
+L	java:S1067"+Replace this use of System.out by a logger.(š¦¯ùÿÿÿÿ8Ş·°ˆÖ1
+L	java:S1069"+Replace this use of System.out by a logger.(ïõøøüÿÿÿÿ8ß·°ˆÖ1
+L	java:S106<"+Replace this use of System.out by a logger.(æÍÜ†şÿÿÿÿ8ß·°ˆÖ1
+s
+java:S2159O"VRemove this call to "equals"; comparisons between unrelated types always return false.(İëö 8à·°ˆÖ1

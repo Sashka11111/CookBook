@@ -1,0 +1,30 @@
+[
+  {
+    "id": "2e929982-38a5-457f-a8d2-bd18eadb404e",
+    "username": "111111",
+    "password": "111111",
+    "email": "111111@gmail.com",
+    "role": "Адмін"
+  },
+  {
+    "id": "ad88c29a-1763-4049-9db4-ed1f3082cf12",
+    "username": "llllllss",
+    "password": "llllllss",
+    "email": "llllllss@gmail.com",
+    "role": "Користувач"
+  },
+  {
+    "id": "9d1b7a21-a3dc-4522-94bf-f649d5431ee3",
+    "username": "oooooooooo",
+    "password": "6778888",
+    "email": "dallllllll@gmail.com",
+    "role": "Адмін"
+  },
+  {
+    "id": "65fa023e-aa9f-4378-ac1b-1a9405c05aa4",
+    "username": "sashka",
+    "password": "123456",
+    "email": "sashkaliamtseva@dmail.com",
+    "role": "Користувач"
+  }
+]

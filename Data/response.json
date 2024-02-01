@@ -1,0 +1,61 @@
+[ {
+  "comment" : "Дуже смачна страва! Рекомендую!",
+  "mark" : 5,
+  "author" : {
+    "id" : null,
+    "username" : "user1",
+    "password" : null,
+    "email" : null,
+    "role" : null
+  },
+  "recipesId" : 1
+}, {
+  "comment" : "Непоганий рецепт. Але можна було б додати трохи більше спецій.",
+  "mark" : 4,
+  "author" : {
+    "id" : null,
+    "username" : "user2",
+    "password" : null,
+    "email" : null,
+    "role" : null
+  },
+  "recipesId" : 2
+}, {
+  "comment" : "Спробував цю страву. Враження залишилися хороші.",
+  "mark" : 5,
+  "author" : {
+    "id" : null,
+    "username" : "user3",
+    "password" : null,
+    "email" : null,
+    "role" : null
+  },
+  "recipesId" : 3
+}, {
+  "comment" : "Спробував зробити цю страву. Залишилися трохи розділити думки.",
+  "mark" : 3,
+  "author" : {
+    "id" : null,
+    "username" : "user4",
+    "password" : null,
+    "email" : null,
+    "role" : null
+  },
+  "recipesId" : 4
+}, {
+  "comment" : "Не сподобалася страва. Чомусь не вийшло.",
+  "mark" : 2,
+  "author" : {
+    "id" : null,
+    "username" : "user5",
+    "password" : null,
+    "email" : null,
+    "role" : null
+  },
+  "recipesId" : 5
+}, {
+  "comment" : "Час приготування більший ніж вказано",
+  "mark" : 3,
+  "author" : null,
+  "recipesId" : 9
+} ]

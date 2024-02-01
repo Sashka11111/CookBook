@@ -1,0 +1,18 @@
+
+L	java:S106"+Replace this use of System.out by a logger.(®ÄŞÿÿÿÿÿ8´¡¯Ö1
+L	java:S106"+Replace this use of System.out by a logger.(àíêÿÿÿÿÿ8´¡¯Ö1
+L	java:S106"+Replace this use of System.out by a logger.(Í–±µùÿÿÿÿ8´¡¯Ö1
+G	java:S106"+Replace this use of System.out by a logger.(–ô©£8´¡¯Ö1
+L	java:S106 "+Replace this use of System.out by a logger.(ÃÙƒäûÿÿÿÿ8¼¡¯Ö1
+G	java:S106!"+Replace this use of System.out by a logger.(Ú»äô8½¡¯Ö1
+L	java:S106""+Replace this use of System.out by a logger.(Í¼ˆŠúÿÿÿÿ8½¡¯Ö1
+G	java:S106-"+Replace this use of System.out by a logger.(é†·8¿¡¯Ö1
+L	java:S106/"+Replace this use of System.out by a logger.(‚ï£ıÿÿÿÿ8¿¡¯Ö1
+L	java:S1062"+Replace this use of System.out by a logger.(ëÚƒùÿÿÿÿ8¿¡¯Ö1
+L	java:S1065"+Replace this use of System.out by a logger.(‡Û´àøÿÿÿÿ8¿¡¯Ö1
+G	java:S106F"+Replace this use of System.out by a logger.(´ÕÙÎ8¿¡¯Ö1
+L	java:S106H"+Replace this use of System.out by a logger.(¤”Œ¯ûÿÿÿÿ8¿¡¯Ö1
+O
+java:S1068"-Remove this unused "responses" private field.(ü‹„ßùÿÿÿÿ8¿¡¯Ö1
+P
+java:S1144M"3Remove this unused private "getCurrentUser" method.(›˜Ù8¿¡¯Ö1
