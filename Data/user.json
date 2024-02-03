@@ -28,4 +28,10 @@
   "password" : "123456",
   "email" : "SashkaLiamtseva@gmail.com",
   "role" : "Адмін"
+}, {
+  "id" : "007dfe54-4271-48da-aec3-5d99fe5dc954",
+  "username" : "sashka",
+  "password" : "123",
+  "email" : "ww",
+  "role" : "Користувач"
 } ]
